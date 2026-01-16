@@ -47,14 +47,14 @@ function AboutMe() {
       <p className="bio">
       <p>I am an implementation-focused engineer who lives at the intersection of customers, infrastructure, and identity.</p>
       <br />
-      <p>In practical terms I'm a figure-it-the-hell-outer-er</p>
+      <p>In practical terms, I'm a figure-it-the-hell-out-er.</p>
 
       <br />
-         <p>Over the last few years I’ve led enterprise rollouts of security and access products, plugged them into messy hybrid environments, and been the person people call when a project is wobbling and needs to be made boring and reliable (yet fun and worth mentioning at the professional conference).</p>
+         <p>Over the last few years I’ve led enterprise rollouts of security and access products, and plugged them into messy hybrid environments. I am the person that people call when a project is wobbling and needs to be made boring and reliable (yet fun and worth mentioning at the professional conference).</p>
       <br />
-      <p>My day-to-day tools are Linux, Docker, IAM/PAM, and cloud services, with enough Python, JavaScript, and automation (n8n, APIs, scripting) to glue systems together and remove repetitive work. I care less about shiny features and more about whether users can log in, the system stays up, and the path to “it works” is documented and repeatable.</p>
+      <p>My day-to-day tools are Linux, Docker, IAM/PAM, and cloud services, with enough Python, JavaScript, and automation (n8n, APIs, scripting) to glue systems together and remove repetitive work. I care less about shiny features and more about making sure the system stays up, users can log in, and the path to “it works” is documented and repeatable.</p>
       <br />
-      <p>Before this, I served in the U.S. Air Force, fought wildland fires, sold real estate, and completed a full-stack web-dev bootcamp.</p>
+      <p>Before my tech adventures began, I served in the U.S. Air Force as a mechanic on the C-17 Globemaster, fought wildland fires in the American West, sold real estate, and completed a full-stack web-dev bootcamp.</p>
       </p>
       <div className="tech-stack">
         <h2>(Some of The) Tools in My Toolbox</h2>
