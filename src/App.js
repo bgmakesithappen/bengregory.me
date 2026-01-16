@@ -45,24 +45,32 @@ function AboutMe() {
       </div>
       <h1>Ben Gregory</h1>
       <p className="bio">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <p>I am an implementation-focused engineer who lives at the intersection of customers, infrastructure, and identity.</p>
+      <br />
+      <p>In practical terms I'm a figure-it-the-hell-outer-er</p>
+
+      <br />
+         <p>Over the last few years I’ve led enterprise rollouts of security and access products, plugged them into messy hybrid environments, and been the person people call when a project is wobbling and needs to be made boring and reliable (yet fun and worth mentioning at the professional conference).</p>
+      <br />
+      <p>My day-to-day tools are Linux, Docker, IAM/PAM, and cloud services, with enough Python, JavaScript, and automation (n8n, APIs, scripting) to glue systems together and remove repetitive work. I care less about shiny features and more about whether users can log in, the system stays up, and the path to “it works” is documented and repeatable.</p>
+      <br />
+      <p>Before this, I served in the U.S. Air Force, fought wildland fires, sold real estate, and completed a full-stack web-dev bootcamp.</p>
       </p>
       <div className="tech-stack">
-        <h2>Tech Stack</h2>
+        <h2>(Some of The) Tools in My Toolbox</h2>
         <div className="tech-grid">
           <span className="tech-badge">AWS</span>
           <span className="tech-badge">Kubernetes</span>
           <span className="tech-badge">Docker</span>
           <span className="tech-badge">React</span>
           <span className="tech-badge">Python</span>
-          <span className="tech-badge">FastAPI</span>
+          <span className="tech-badge">Linux</span>
           <span className="tech-badge">n8n</span>
           <span className="tech-badge">PostgreSQL</span>
         </div>
       </div>
       <div className="certifications">
-        <h2>Certifications</h2>
+        <h2>Certs (If You Roll Like That)</h2>
         <p>AWS Certified Cloud Practitioner</p>
       </div>
     </div>
@@ -72,29 +80,34 @@ function AboutMe() {
 function LinksILike() {
   const links = [
     {
-      title: 'Kubernetes Documentation',
-      url: 'https://kubernetes.io/docs/',
-      description: 'Comprehensive resource for container orchestration and cluster management'
+      title: 'Your Password Sucks',
+      url: 'https://yourpasswordsucks.com/',
+      description: 'Opinionated site encouraging strong, unique passwords and promoting password managers and breach checks.'
     },
     {
-      title: 'n8n Workflow Automation',
-      url: 'https://n8n.io/',
-      description: 'Self-hosted workflow automation platform for building complex integrations'
+      title: 'Bitwarden',
+      url: 'https://bitwarden.com/',
+      description: 'Open-source password manager for securely storing and syncing passwords and passkeys across devices.'
     },
     {
-      title: 'AWS Architecture Center',
-      url: 'https://aws.amazon.com/architecture/',
-      description: 'Reference architectures and best practices for cloud infrastructure design'
+      title: 'Collaboration Sucks',
+      url: 'https://newsletter.posthog.com/p/collaboration-sucks',
+      description: 'Newsletter essay on why most “collaboration” is wasteful and how to make team work more effective.'
     },
     {
-      title: 'React Documentation',
-      url: 'https://react.dev/',
-      description: 'Official React framework documentation and learning resources'
+      title: 'Notion.so',
+      url: 'https://www.notion.so/',
+      description: 'All-in-one workspace app for notes, docs, tasks, and databases for individuals and teams.'
     },
     {
-      title: 'FastAPI Framework',
-      url: 'https://fastapi.tiangolo.com/',
-      description: 'Modern Python web framework for building high-performance APIs'
+      title: 'Have I Been Pwned',
+      url: 'https://haveibeenpwned.com/',
+      description: 'Breach-checking service to see if your email or passwords have appeared in known data leaks.'
+    },
+    {
+      title: 'Proton',
+      url: 'https://proton.me/',
+      description: 'Privacy-focused suite of encrypted services including email, calendar, VPN, storage, and more.'
     }
   ];
 
@@ -117,8 +130,8 @@ function LinksILike() {
 function PortfolioProjects() {
   const projects = [
     {
-      title: 'Kubernetes Portfolio',
-      url: 'https://k8s.bengregory.me',
+      title: 'Kubernetes Hit Piece',
+      url: 'http://k8s.bengregory.me',
       description: 'Self-documenting Kubernetes deployment on AWS EKS featuring FastAPI backend and React frontend dashboard with comprehensive infrastructure automation',
       tech: ['Kubernetes', 'AWS EKS', 'FastAPI', 'React', 'Docker']
     }
