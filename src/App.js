@@ -131,7 +131,7 @@ function PortfolioProjects() {
   const projects = [
     {
       title: 'Kubernetes Hit Piece',
-      url: 'http://k8s.bengregory.me',
+      url: 'https://k8s.bengregory.me',
       description: 'Self-documenting Kubernetes deployment on AWS EKS featuring FastAPI backend and React frontend dashboard with comprehensive infrastructure automation',
       tech: ['Kubernetes', 'AWS EKS', 'FastAPI', 'React', 'Docker']
     }
