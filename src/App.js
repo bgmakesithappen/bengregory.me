@@ -134,6 +134,12 @@ function PortfolioProjects() {
       url: 'https://k8s.bengregory.me',
       description: 'Self-documenting Kubernetes deployment on AWS EKS featuring FastAPI backend and React frontend dashboard with comprehensive infrastructure automation',
       tech: ['Kubernetes', 'AWS EKS', 'FastAPI', 'React', 'Docker']
+    },
+    {
+      title: 'Docker Multi-Host Deployment',
+      url: 'https://github.com/bgmakesithappen/docker-multi-host-deploy/blob/main/PORTFOLIO_SUMMARY.md',
+      description: 'Automated deployment system that provisions cloud infrastructure and deploys containerized applications to multiple servers with a single command.',
+      tech: ['Docker', 'AWS', 'Nginx', 'Terraform', 'Python']
     }
   ];
 
